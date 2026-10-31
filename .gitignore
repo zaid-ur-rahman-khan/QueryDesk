@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# User documents and generated vector index are not committed by default
+assets/uploaded_documents/*
+!assets/uploaded_documents/.gitkeep
+vectorstore/*
+!vectorstore/.gitkeep
